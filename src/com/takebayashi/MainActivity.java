@@ -67,7 +67,7 @@ public class MainActivity extends Activity implements View.OnClickListener,OnIte
 		listView.setOnItemClickListener(this);
 		
 		
-		
+		//mitsui.shion
 		readDatabase();//データーベース読み込み
 		
 	}
