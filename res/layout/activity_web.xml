@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_header"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip">
+                
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:padding="5dip"
+        	android:background="#ff00ff">
+            
+            <Button
+                android:id="@+id/closebtn"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="閉じる"/>
+            
+        </LinearLayout>
+        
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/rl_web"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        android:layout_weight="1">
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/rl_footer"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip">
+        
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip"
+        	android:background="#ff00ff">
+            
+            <Button
+                android:id="@+id/backwardbtn"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="＜"/>
+            
+            <Button
+                android:id="@+id/forwardbtn"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="＞"/>
+            
+            <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+        	android:background="#ffff00"
+        	android:layout_weight="1"/>
+            
+            <Button
+                android:id="@+id/refleshbtn"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="更新"/>
+            
+        </LinearLayout>
+        
+    </RelativeLayout>
+        
+</LinearLayout>
